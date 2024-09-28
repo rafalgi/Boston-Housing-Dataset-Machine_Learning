@@ -1,4 +1,4 @@
-# Boston Housing Price Prediction Project
+# Boston Housing Price Prediction Projects
 ![image](https://github.com/user-attachments/assets/e9745e5d-36e3-413d-bdb1-1e23ddb3bbc1)
 
 ## Project Overview
