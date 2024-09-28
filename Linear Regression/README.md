@@ -1,5 +1,6 @@
 # Boston Housing Price Prediction using Neural Networks
 ![image](https://miro.medium.com/max/888/1*guak1sQTh5sAf46NMzbQig.jpeg)
+
 This project demonstrates the implementation of a simple neural network in Keras to predict housing prices from the **Boston Housing Dataset** using a single feature: the average number of rooms. The goal is to train a neural network to estimate the median home price based on this single feature.
 
 ## Table of Contents
