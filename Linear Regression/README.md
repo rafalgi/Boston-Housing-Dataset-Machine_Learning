@@ -6,12 +6,6 @@ This project demonstrates the implementation of a simple neural network in Keras
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Model Architecture](#model-architecture)
-- [Training Results](#training-results)
-- [License](#license)
 
 ## Project Overview
 
