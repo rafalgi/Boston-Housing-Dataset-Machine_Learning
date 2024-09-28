@@ -1,54 +1,45 @@
-Cel projektu
-Celem projektu jest zbudowanie modelu uczenia maszynowego, który przewiduje ceny mieszkań w Bostonie na podstawie różnych cech, takich jak poziom zanieczyszczenia powietrza, liczba pokoi, wiek budynków i inne. Do tego celu wykorzystano algorytm Gradient Boosting Regressor.
+# Boston Housing Price Prediction Project
 
-Kroki projektu
-Importowanie bibliotek
-Na początku projektu importowane są niezbędne biblioteki Python, takie jak Pandas, NumPy, Matplotlib, Seaborn oraz kilka z bibliotek Scikit-learn do przetwarzania danych, wizualizacji i budowy modeli uczenia maszynowego.
+![Boston](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bostonglobe.com%2F2024%2F04%2F17%2Fmagazine%2Fhome-prices-have-dropped-in-some-pricey-suburbs%2F&psig=AOvVaw2x1_dHHjLbhrh75ToF0oau&ust=1727636936950000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOizlKar5ogDFQAAAAAdAAAAABAE)
 
-Wczytywanie i wstępna analiza danych
-Dane są wczytywane z pliku CSV BostonHousing.csv. Przeprowadzana jest wstępna analiza danych, która obejmuje wyświetlanie pierwszych kilku wierszy danych oraz sprawdzanie informacji o kolumnach i typach danych. Wykorzystywane są funkcje head(), info() oraz describe().
+## Project Overview
 
-Czyszczenie danych
-Dane są czyszczone poprzez usuwanie brakujących wartości oraz sprawdzanie duplikatów. W tym celu używane są funkcje isnull().sum() oraz duplicated().sum(). Kolumna rm, która zawiera brakujące wartości, jest usuwana za pomocą dropna(axis=1, inplace=True).
+This repository contains two distinct machine learning projects, both of which aim to predict housing prices in Boston based on various features such as air pollution levels, the number of rooms, and building age. Each project uses a different approach to achieve this goal.
 
-Wizualizacja danych
-Dane są wizualizowane w celu lepszego zrozumienia korelacji między zmiennymi oraz ich rozkładu. Wykorzystywane są mapy cieplne (heatmap) oraz wykresy par (pairplot) z biblioteki Seaborn.
+### Project 1: Gradient Boosting Regressor for Price Prediction
 
-Budowa modelu Gradient Boosting Regressor
-a. Dane są dzielone na zestawy treningowe i testowe za pomocą train_test_split.
-b. Trenowanie modelu Gradient Boosting Regressor z parametrami max_depth=2, n_estimators=3, learning_rate=1.0.
-c. Prognozowanie cen mieszkań na podstawie zestawu testowego.
-d. Ewaluacja modelu za pomocą metryk takich jak Mean Absolute Error (MAE), Mean Squared Error (MSE) oraz R-squared (R²).
+The primary objective of this project is to build a machine learning model using the Gradient Boosting Regressor algorithm to predict Boston housing prices. This involves several steps including data cleaning, visualization, model training, and evaluation.
 
-Wyniki modelu
-Wyniki pierwszego modelu:
+### Project 2: Neural Networks with Keras and TensorFlow
 
-Mean Absolute Error: 4.82
-Mean Squared Error: 57.83
-R-squared: 0.17
-Znaczenie zmiennych
-Ważność zmiennych jest wizualizowana za pomocą wykresu słupkowego (barh). Pokazuje on względne znaczenie każdej cechy w modelu.
+In this project, a neural network model is implemented using the Keras and TensorFlow libraries to perform the same task: predicting Boston housing prices. This model attempts to leverage deep learning techniques for improved performance and prediction accuracy.
 
-Optymalizacja parametrów
-a. Wykorzystanie GridSearchCV do znalezienia najlepszych parametrów dla Gradient Boosting Regressor.
-b. Najlepsze parametry uzyskane to learning_rate=0.05 i n_estimators=150.
-c. Trenowanie modelu z optymalnymi parametrami i ocena jego wyników.
+## Table of Contents
 
-Ewaluacja zoptymalizowanego modelu
-Wyniki zoptymalizowanego modelu:
+1. [Installation](#installation)
+2. [Project 1: Gradient Boosting Regressor](#project-1-gradient-boosting-regressor)
+    - Data Preprocessing
+    - Model Building and Evaluation
+3. [Project 2: Neural Networks with Keras and TensorFlow](#project-2-neural-networks)
+    - Model Architecture
+    - Training and Evaluation
+4. [Results Comparison](#results-comparison)
+5. [Conclusions](#conclusions)
+6. [Potential Applications](#potential-applications)
 
-Mean Absolute Error: 4.82
-Mean Squared Error: 57.83
-R-squared: 0.17
-Porównanie modeli
-Wyniki obu modeli są porównane w tabeli, co pozwala na ocenę wpływu optymalizacji parametrów na wyniki modelu.
+## Installation
 
-Wnioski
-Na podstawie przeprowadzonej analizy można stwierdzić, że model Gradient Boosting Regressor nie daje znacząco lepszych wyników po optymalizacji parametrów, co sugeruje potrzebę dalszych badań i testowania innych modeli lub dodatkowego przetwarzania danych w celu poprawy wyników prognozowania.
+To run both projects locally, you will need Python installed along with the following libraries:
 
-Potencjalne zastosowania
-Wyniki tego projektu mogą być wykorzystane do:
+- **Pandas**
+- **NumPy**
+- **Matplotlib**
+- **Seaborn**
+- **Scikit-learn**
+- **TensorFlow** (for Project 2)
+- **Keras** (for Project 2)
 
-Prognozowania cen mieszkań w Bostonie na podstawie różnych cech.
-Pomocy deweloperom i agentom nieruchomości w lepszym zrozumieniu czynników wpływających na ceny mieszkań.
-Wsparcia decydentów w analizie wpływu różnych czynników środowiskowych i infrastrukturalnych na rynek nieruchomości.
+To install these libraries, run the following command:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn tensorflow keras
