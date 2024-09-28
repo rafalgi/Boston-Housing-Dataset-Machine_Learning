@@ -1,6 +1,6 @@
-# Boston Housing Price Prediction Project
+![image](https://github.com/user-attachments/assets/e9745e5d-36e3-413d-bdb1-1e23ddb3bbc1)# Boston Housing Price Prediction Project
 
-![Boston](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bostonglobe.com%2F2024%2F04%2F17%2Fmagazine%2Fhome-prices-have-dropped-in-some-pricey-suburbs%2F&psig=AOvVaw2x1_dHHjLbhrh75ToF0oau&ust=1727636936950000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOizlKar5ogDFQAAAAAdAAAAABAE)
+![Boston]([https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bostonglobe.com%2F2024%2F04%2F17%2Fmagazine%2Fhome-prices-have-dropped-in-some-pricey-suburbs%2F&psig=AOvVaw2x1_dHHjLbhrh75ToF0oau&ust=1727636936950000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOizlKar5ogDFQAAAAAdAAAAABAE](https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/G4J5OC2BCZC47KLEMGJ5SV4NE4.jpg?auth=18f2fa5def73dd230bb75b9c8398f8b323f4baf19ba285001046bfc9e8588bd7&width=1440))
 
 ## Project Overview
 
