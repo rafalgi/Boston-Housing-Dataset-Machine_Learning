@@ -1,4 +1,6 @@
 ## Project 1: Gradient Boosting Regressor
+![image]([https://github.com/user-attachments/assets/e9745e5d-36e3-413d-bdb1-1e23ddb3bbc1](https://www.google.com/url?sa=i&url=https%3A%2F%2Fanupkrsingh.medium.com%2Fgradient-boosting-regression-example-in-python-abcd36126614&psig=AOvVaw0YXuqdWVtdzRGDZSXmzmLO&ust=1727637423840000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMi7wI2t5ogDFQAAAAAdAAAAABAE))
+
 
 ### Data Preprocessing
 
